@@ -1,0 +1,16 @@
+
+main {
+    display: flex;
+}
+
+.padre {
+    justify-content: center;
+    display: flex;
+}
+.hijo1 {
+    padding: 5px;
+}
+
+.hijo2 {
+    padding: 10px;
+}
