@@ -1,16 +1,77 @@
+.html0 {
+    background-image: url(/assets/mcforest.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-main {
+.html1{
+    background-image: url(/assets/mcgb.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main0 {
+    height: 420px;
     display: flex;
+    justify-content: center;
+    align-items: first baseline;
+}
+
+.main1 {
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .padre {
     justify-content: center;
     display: flex;
 }
+
 .hijo1 {
     padding: 5px;
 }
 
 .hijo2 {
-    padding: 10px;
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.field1{
+    box-shadow: 0px 0px 50px 15px #6bee9d;
+    margin-top: 20px;
+}
+
+.p0{
+    align-items: end;
+    justify-content: flex-end;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 15px #6bee9d;
+    
+}
+
+.d1{
+    text-align: left;
+    align-items: flex-end;
+}
+
+.d0{
+    color: antiquewhite;
+   
+}
+
+.l0{
+    color: antiquewhite;
+}
+
+h1{
+    text-shadow: 0px 0px 10px rgb(7, 167, 15);
+    color: antiquewhite;
 }
